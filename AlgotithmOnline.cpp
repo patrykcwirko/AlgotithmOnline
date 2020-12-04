@@ -24,15 +24,24 @@ int main()
 		cout << "  " << requests[i];
 
 	cout << endl << endl;
+
+	cout << "test" << endl;
+	cout << alg.opt(k, n, requests) << endl;
+
 	cout << "Instancja losowa:" << endl << endl;
 
-	n = 10;
+	n = 20;
 	alg.randomInstance(n, requests);
 
 	cout << "Zgloszenia:" << endl;
 
 	for (int i = 0; i < n; ++i)
 		cout << "  " << requests[i];
+
+	cout << endl << endl;
+
+	cout << "test" << endl;
+	cout << alg.opt(k, n, requests) << endl;
 
 	return 0;
 }

@@ -152,6 +152,11 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Algorythms.h" />
+    <ClInclude Include="d_opt.h" />
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="AlgotithmOnline.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
