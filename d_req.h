@@ -1,5 +1,5 @@
 #pragma once
-struct d_opt
+struct d_req
 {
 	int date;
 	int request;

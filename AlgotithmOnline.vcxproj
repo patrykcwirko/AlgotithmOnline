@@ -152,7 +152,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Algorythms.h" />
-    <ClInclude Include="d_opt.h" />
+    <ClInclude Include="d_req.h" />
     <ClInclude Include="resource.h" />
   </ItemGroup>
   <ItemGroup>
